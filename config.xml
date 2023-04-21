@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Memo</name>
+    <description>Simple memo with fast webdav sync</description>
+    <author email="zaaack@qq.com" href="https://zaaack.github.io">
+        zaaack
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <access origin="*" />
+
+    <preference name="AndroidInsecureFileModeEnabled" value="true" />
+
+    <preference name="iosPersistentFileLocation" value="Compatibility" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+</widget>
